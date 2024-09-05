@@ -1,0 +1,490 @@
+/* ---------------------------------------------- */
+/* portfolio section design */
+
+/*SUSHI HERO */
+
+.portfolio {
+    background: var(--bg-color);
+}
+
+/*projeto em andamento */
+.portfolio h2 {
+    margin-bottom: 4rem;
+}
+
+/*tamanho dos 2 juntos */
+.portfolio-container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/*animação*/
+.portfolio-container .portfolio-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    border-radius: 8rem;
+    display: flex;
+}
+
+
+/* Tamanho da img*/
+.portfolio-box img {
+    width: 140%;
+    transition: .5s ease;
+    border-radius: 4rem;
+}
+
+/*borda da animação */
+.portfolio-box .portfolio-layer {
+    position: absolute;
+    border-radius: 8rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    height: 120%;
+    border-radius: 8rem;
+    background: linear-gradient(rgba(43, 4, 53, 0.1), var(--main-color));
+    bottom: 0;
+    left: 0;
+}
+
+/*não sei*/
+.portfolio-box:hover img {
+    transform: scale(1.1);
+
+}
+
+/*animação */
+.portfolio-box .portfolio-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+
+/*mouse por cima */
+.portfolio-box:hover .portfolio-layer {
+    transform: translateY(0%);
+}
+
+
+/*nome grande */
+.portfolio-layer h4 {
+    font-size: 3rem;
+}
+
+
+/*icon*/
+.portfolio-layer p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+.portfolio-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+
+.portfolio-layer a i {
+    font-size: 2rem;
+    color: var(--second-bg-color)
+}
+
+
+/* -------------------------------------------------------------------- */
+/*Space Blaster */
+
+.portfolio2 {
+    background: var(--bg-color);
+}
+
+/*projeto em andamento */
+.portfolio2 h2 {
+    margin-bottom: 4rem;
+}
+
+/*tamanho dos 2 juntos */
+.portfolio2-container {
+    display: grid; 
+    grid-template-columns: repeat(2, 3fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/*animação*/
+.portfolio2-container .portfolio2-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    border-radius: 8rem;
+    display: flex;
+}
+
+
+/* Tamanho da img*/
+.portfolio2-box img {
+    width: 140%;
+    transition: .5s ease;
+    border-radius: 4rem;
+}
+
+/*borda da animação */
+.portfolio2-box .portfolio2-layer {
+    position: absolute;
+    border-radius: 8rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    height: 120%;
+    border-radius: 8rem;
+    background: linear-gradient(rgba(43, 4, 53, 0.1), var(--main-color));
+    bottom: 0;
+    left: 0;
+}
+
+/*não sei*/
+.portfolio2-box:hover img {
+    transform: scale(1.1);
+
+}
+
+/*animação */
+.portfolio2-box .portfolio2-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+
+/*mouse por cima */
+.portfolio2-box:hover .portfolio2-layer {
+    transform: translateY(0%);
+}
+
+
+/*nome grande */
+.portfolio2-layer h4 {
+    font-size: 3rem;
+}
+
+
+/*icon*/
+.portfolio2-layer p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+.portfolio2-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+
+.portfolio2-layer a i {
+    font-size: 2rem;
+    color: var(--second-bg-color)
+}
+
+
+
+/* -------------------------------------------------------------------- */
+/*PixelVania */
+
+.portfolio3 {
+    background: var(--bg-color);
+}
+
+/*projeto em andamento */
+.portfolio3 h2 {
+    margin-bottom: 4rem;
+}
+
+/*tamanho dos 2 juntos */
+.portfolio3-container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/*animação*/
+.portfolio3-container .portfolio3-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    border-radius: 8rem;
+    display: flex;
+}
+
+
+/* Tamanho da img*/
+.portfolio3-box img {
+    width: 140%;
+    transition: .5s ease;
+    border-radius: 4rem;
+}
+
+/*borda da animação */
+.portfolio3-box .portfolio3-layer {
+    position: absolute;
+    border-radius: 8rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    height: 120%;
+    border-radius: 8rem;
+    background: linear-gradient(rgba(43, 4, 53, 0.1), var(--main-color));
+    bottom: 0;
+    left: 0;
+}
+
+/*não sei*/
+.portfolio3-box:hover img {
+    transform: scale(1.1);
+
+}
+
+/*animação */
+.portfolio3-box .portfolio3-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+
+/*mouse por cima */
+.portfolio3-box:hover .portfolio3-layer {
+    transform: translateY(0%);
+}
+
+
+/*nome grande */
+.portfolio3-layer h4 {
+    font-size: 3rem;
+}
+
+
+/*icon*/
+.portfolio3-layer p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+.portfolio3-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+
+.portfolio3-layer a i {
+    font-size: 2rem;
+    color: var(--second-bg-color)
+}
+
+
+
+/* -------------------------------------------------------------------- */
+/*Quack Quest*/
+
+
+.portfolio4 {
+    background: var(--bg-color);
+}
+
+/*projeto em andamento */
+.portfolio4 h2 {
+    margin-bottom: 4rem;
+}
+
+/*tamanho dos 2 juntos */
+.portfolio4-container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/*animação*/
+.portfolio4-container .portfolio4-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    border-radius: 8rem;
+    display: flex;
+}
+
+
+/* Tamanho da img*/
+.portfolio4-box img {
+    width: 140%;
+    transition: .5s ease;
+    border-radius: 4rem;
+}
+
+/*borda da animação */
+.portfolio4-box .portfolio4-layer {
+    position: absolute;
+    border-radius: 8rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    height: 120%;
+    border-radius: 8rem;
+    background: linear-gradient(rgba(43, 4, 53, 0.1), var(--main-color));
+    bottom: 0;
+    left: 0;
+}
+
+/*não sei*/
+.portfolio4-box:hover img {
+    transform: scale(1.1);
+
+}
+
+/*animação */
+.portfolio4-box .portfolio4-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+
+/*mouse por cima */
+.portfolio4-box:hover .portfolio4-layer {
+    transform: translateY(0%);
+}
+
+
+/*nome grande */
+.portfolio4-layer h4 {
+    font-size: 3rem;
+}
+
+
+/*icon*/
+.portfolio4-layer p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+.portfolio4-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+
+.portfolio4-layer a i {
+    font-size: 2rem;
+    color: var(--second-bg-color)
+}
+
+
+
+
+HTML
+
+
+
+    <!-- portfolio section design --> 
+     <section class="portfolio" id="portfolio">
+      <h2 class="heading">Projetos em <span>Andamento</span></h2>
+
+      <div class="portfolio-container">
+          <div class="portfolio-box">
+            <img src="images/Sushi Hero letra.png" alt="">
+            <div class="portfolio-layer">
+              <h4>Sushi Hero</h4>
+              <p>"Bem-vindo ao Sushi Hero, um jogo de plataforma onde você é um panda cozinheiro em um restaurante de sushi. Com gráficos 3D incríveis e desenvolvido na Godot Engine, prepare-se para criar sushi delicioso, coletar moedas e derrotar inimigos em busca da excelência culinária!"</p>
+              <a href="https://youtu.be/4vaNbyunQbM"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <div class="portfolio2-container">
+          <div class="portfolio2-box">
+            <img src="images/Space Blaster.png" alt="">
+            <div class="portfolio2-layer">
+              <h4>Space Blaster</h4>
+              <p>"Bem-vindo ao Sushi Hero, um jogo de plataforma onde você é um panda cozinheiro em um restaurante de sushi. Com gráficos 3D incríveis e desenvolvido na Godot Engine, prepare-se para criar sushi delicioso, coletar moedas e derrotar inimigos em busca da excelência culinária!"</p>
+              <a href="https://youtu.be/4vaNbyunQbM"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <div class="portfolio3-container">
+          <div class="portfolio3-box">
+            <img src="images/pixelvania.png" alt="">
+            <div class="portfolio3-layer">
+              <h4>PixelVania</h4>
+              <p>"Bem-vindo ao Sushi Hero, um jogo de plataforma onde você é um panda cozinheiro em um restaurante de sushi. Com gráficos 3D incríveis e desenvolvido na Godot Engine, prepare-se para criar sushi delicioso, coletar moedas e derrotar inimigos em busca da excelência culinária!"</p>
+              <a href="https://youtu.be/4vaNbyunQbM"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <div class="portfolio4-container">
+          <div class="portfolio4-box">
+            <img src="images/Sushi Hero letra.png" alt="">
+            <div class="portfolio4-layer">
+              <h4>Duck Quest</h4>
+              <p>"Bem-vindo ao Sushi Hero, um jogo de plataforma onde você é um panda cozinheiro em um restaurante de sushi. Com gráficos 3D incríveis e desenvolvido na Godot Engine, prepare-se para criar sushi delicioso, coletar moedas e derrotar inimigos em busca da excelência culinária!"</p>
+              <a href="https://youtu.be/4vaNbyunQbM"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+        </div>
+        </section>
